@@ -1,0 +1,39 @@
+.vc_tta-tabs-list li:before {
+	content:"";
+}
+
+.wpb_wrapper .pm-contact-form-container .col-lg-6, .wpb_wrapper .pm-contact-form-container .col-md-6, .wpb_wrapper .pm-contact-form-container .col-sm-12, .wpb_wrapper .pm-contact-form-container .col-lg-12 {
+	margin-bottom:20px;		
+}
+
+.wpb_button, .wpb_content_element, ul.wpb_thumbnails-fluid > li {
+	margin-bottom:0px !important;	
+}
+
+.wpb_row {
+	margin-bottom:0px !important;	
+}
+
+.pm-boxed-mode .wpb_row {
+	width:100% !important;
+	left:0px !important;
+	margin-left:0px !important;
+	margin-right:0px !important;
+	padding-left:0px !important;
+	padding-right:0px !important;	
+}
+
+.pm-boxed-mode .pm-page-bootstrap-container {
+	padding-left:0px !important;
+	padding-right:0px !important;	
+}
+
+/*.pm-contact-form-container .col-lg-12 {
+	margin-bottom:20px;		
+}*/
+
+/* added April 19 2016 */
+
+.vc_row.pm-show-overflow {
+    overflow: visible !important;
+}

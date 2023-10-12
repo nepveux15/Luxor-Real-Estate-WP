@@ -1,0 +1,92 @@
+.pm-pagination-page-counter {
+	display:table;
+	margin:0 auto;	
+}
+
+.pm-pagination-page-counter p {
+	font-size:14px;
+	font-weight:300;	
+	color:#959595;
+	margin:0;
+	padding:0;
+}
+
+.pm-pagination {
+    /*border-top: 1px solid #ededed;*/
+    list-style: none outside none;
+    padding:12px 0;
+	margin:0px;
+	display:table;
+	margin:0 auto;
+}
+
+.pm-pagination.pm-knowledge-base-pagination {
+	margin:0 !important;	
+	padding:20px !important;
+}
+
+.pm-pagination li:before {
+	content:"";
+	margin:0;
+	padding:0;	
+}
+
+.pm-pagination li {
+    display:block;
+	width:40px;
+	height:40px;
+	text-align:center;
+	font-family:'FontAwesome';	
+	font-size:16px;
+	color:white;
+	line-height:0px;
+	float:left;
+	margin-right:3px;
+	background-color:#DBDBDB;
+	
+	@include transition(all, .5s);
+}
+
+.pm-pagination li:last-child {
+	margin-right:0px;	
+}
+
+
+
+.pm-pagination li:hover a {
+	color:white;	
+}
+
+.pm-pagination li a {
+    display: block;
+    /*padding: 8px 0;*/
+    text-align: center;
+	text-decoration:none;
+	font-family: arial !important;
+    font-size: 12px !important;
+    line-height: 40px !important;
+	color:black !important;
+}
+
+
+
+.pm-pagination li span.current {
+	color:white;
+	font-weight:bold;
+}
+
+.pm-pagination li span {
+    display: block;
+    font-family: arial !important;
+    font-size: 12px !important;
+    line-height: 40px !important;
+    text-align: center;
+}
+
+.pm-pagination.pm-knowledge-base-pagination li span {
+    line-height: 36px !important;
+}
+
+.pm-pagination.pm-knowledge-base-pagination li a {
+	 line-height: 36px !important;	
+}

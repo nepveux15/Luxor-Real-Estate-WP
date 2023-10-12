@@ -1,0 +1,44 @@
+.pm-members-pagination-page-counter {
+	padding: 15px 18px 0 0;
+}
+
+.pm-members-pagination-page-counter > p {
+	font-size:12px;	
+}
+
+.pm-members-pagination {
+    list-style: none outside none;
+    margin: 10px 0;
+    overflow: hidden;
+    padding:0;
+}
+
+.pm-members-pagination li::before {
+	content:"";
+	padding:0;
+	margin:0;	
+}
+
+.pm-members-pagination li {
+	float:left;	
+	margin:0 1px 0 0 !important;
+}
+
+.pm-members-pagination li a {
+	display:block;
+	width:35px;
+	height:35px;
+	background-color:#eee;
+	text-align:center;
+	line-height: 2.3;
+	font-weight: normal;
+	color:grey;
+	
+	@include transition(all, 0.4s);
+}
+
+.pm-members-pagination li a:hover {
+	background-color:#CCCCCC;	
+}
+
+
